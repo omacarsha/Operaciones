@@ -123,6 +123,7 @@ public class Tareas extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        System.out.print("Hola a todos");
         int a= Integer.parseInt(this.txvalor1.getText());
         int b= Integer.parseInt(this.txvalor2.getText());
         int rta=a*b;
